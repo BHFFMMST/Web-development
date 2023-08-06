@@ -4,7 +4,7 @@
 - ...
 
 ## To-do:
-- Obavijestiti Team Leada prilikom svake bitne izmjene/dodatka
+- **Obavijestiti Team Leada prilikom svake bitne izmjene/dodatka**
 - Sync meeting za kreiranje plana novih radionica
 - Prilagoditi CSS radionice za MMS tim
 - Napraviti radionice modularne, te da se na osnovu potreba i nivoa znanja polaznika mogu uzeti pojedini moduli i kreirati funkcionalna radionica
