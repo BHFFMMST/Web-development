@@ -7,6 +7,7 @@
 - **Obavijestiti Team Leada prilikom svake bitne izmjene/dodatka**
 - Sync meeting za kreiranje plana novih radionica
 - Prilagoditi CSS radionice za MMS tim
+- Razmisliti o koristenju Obsidian.md kao notes/prezentacije radionica (kontaktiraj Amera)
 - Napraviti radionice modularne, te da se na osnovu potreba i nivoa znanja polaznika mogu uzeti pojedini moduli i kreirati funkcionalna radionica
 - Dokumentovati u **trenutni nivoi** segmentu potencijalne radionice sa parametrima koji uticu na odabir iste i modula
 - Dokumentovati koji moduli su "must cover", dok koji su opcionalni na osnovu nivoa znanja:
