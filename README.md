@@ -1,14 +1,31 @@
-# Web-development workshop/course dokumentacija
+# Dokumentacija za Web development kurseve
 
-## Trenutni nivoi:
-- ...
+### Uputstvo za lokalno pokretanje dokumentacije
+1. Klonirati repozitorijum
+```bash
+git clone https://github.com/BHFFMMST/web-development.git
+```
 
-## To-do:
-- **Obavijestiti Team Leada prilikom svake bitne izmjene/dodatka**
-- Sync meeting za kreiranje plana novih radionica
-- Prilagoditi CSS radionice za MMS tim
-- Razmisliti o koristenju Obsidian.md kao notes/prezentacije radionica (kontaktiraj Amera)
-- Napraviti radionice modularne, te da se na osnovu potreba i nivoa znanja polaznika mogu uzeti pojedini moduli i kreirati funkcionalna radionica
-- Dokumentovati u **trenutni nivoi** segmentu potencijalne radionice sa parametrima koji uticu na odabir iste i modula
-- Dokumentovati koji moduli su "must cover", dok koji su opcionalni na osnovu nivoa znanja:
-  - Naprimjer: za 3-4. razred srednje skole se mora preci ponavljanje html-css-js u 1-2 radionice sto znaci da je must have, dok je react router modul opcionalan
+2. Pozicionirati se u direktorijum `web-development`
+```bash
+cd Web-development
+```
+
+3. Kreirati virtualno okruzenje i aktivirati ga
+```bash
+python -m venv env-docs
+
+source env-docs/Scripts/activate
+```
+
+4. Instalirati potrebne pakete
+```bash
+pip install -r requirements.txt
+```
+
+5. Pokrenuti dokumentaciju
+```bash
+mkdocs serve
+```
+
+Dokumentacija se pokrece na adresi [localhost:8000](localhost:8000)
