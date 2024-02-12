@@ -1,0 +1,110 @@
+site_name: MMST - Web development
+# site_url:
+
+repo_url: https://github.com/BHFFMMST/web-development
+repo_name: BHFFMMST/web-development
+
+#
+# Theme Settings
+#
+
+
+plugins:
+  - search
+  - mermaid2
+
+theme:
+  name: material
+  logo: assets/images/bhff-favicon.png
+  favicon: assets/images/bhff-favicon.png
+
+  features:
+    # Navigation
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    # - navigation.tabs.sticky
+    # - navigation.expand
+
+    # Table of contents
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
+    - toc.integrate
+
+    # Search
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#setting-up-site-search    - search.suggest
+    - search.suggest
+    - search.highlight
+
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: bhff
+      toggle:
+        icon: material/weather-sunny
+        name: Prebaci na tamni mod
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Prebaci na svijetli mod
+
+#
+# Extra Settings
+#
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/BHFFMMST
+      name: BHFFMMST GitHub Org
+
+extra_css:
+  - assets/css/extra.css
+
+#
+# Extensions
+#
+markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - attr_list
+
+  - admonition
+  - footnotes
+
+#
+# Navigation
+# https://www.mkdocs.org/user-guide/configuration/#nav
+#
+
+nav:
+  - Uvod: index.md
+  - Osnovni koncepti:
+      - Uvod: content/basics/index.md
+  - Stilizacija:
+      - Uvod: content/styling/index.md
+  - Napredni koncepti:
+      - Uvod: content/intermediate/index.md
+      - HTML: content/intermediate/html/index.md
