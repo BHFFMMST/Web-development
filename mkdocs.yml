@@ -107,4 +107,14 @@ nav:
       - Uvod: content/styling/index.md
   - Napredni koncepti:
       - Uvod: content/intermediate/index.md
-      - HTML: content/intermediate/html/index.md
+      - Osnove: content/intermediate/osnove/index.md
+      - Uslovi: content/intermediate/uslovi/index.md
+      - Grananje: content/intermediate/grananje/index.md
+      - Petlje: content/intermediate/petlje/index.md
+      - Iteracija niza: content/intermediate/iteracija niza/index.md
+      - Stringovi: content/intermediate/stringovi/index.md
+      - Funkcije: content/intermediate/funkcije/index.md
+      - Niz: content/intermediate/niz - metode/index.md
+      - Objekti: content/intermediate/objekti/index.md
+      - Operatori: content/intermediate/operatori/index.md
+      - Sortiranje niza: content/intermediate/sortiranje niza/index.md
