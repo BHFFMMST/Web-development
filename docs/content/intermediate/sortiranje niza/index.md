@@ -51,7 +51,3 @@ let numbers = [40,  100,  1,  5,  25,  10];
 console.log(homeMadeMin(numbers)); //  1
 console.log(homeMadeMax(numbers)); //  100
 ```
-
-```
-
-```

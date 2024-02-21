@@ -2,7 +2,7 @@
 
 ## Concatenation (Nizanje stringova)
 
->> Nizanje stringova je proces spajanja dva ili više stringova kako bi se stvorio novi string. U JavaScriptu, to možete postići koristeći operator `+`. Naprimjer:
+> Nizanje stringova je proces spajanja dva ili više stringova kako bi se stvorio novi string. U JavaScriptu, to možete postići koristeći operator `+`. Naprimjer:
 
 ```js
 let firstName = "John";
